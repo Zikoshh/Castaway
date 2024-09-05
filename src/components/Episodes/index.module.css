@@ -1,0 +1,41 @@
+.episodes {
+  margin: 0 20px;
+  padding: 100px 50px 160px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 79.2px;
+  letter-spacing: 2.8px;
+  color: var(--text-primary);
+}
+
+.button_view {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+  color: var(--text-primary);
+  background-color: var(--text-tertiary);
+  border-radius: 6px;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+}
+
+.button_view:hover {
+  opacity: 0.7;
+}
+
+.cards {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 60px;
+}

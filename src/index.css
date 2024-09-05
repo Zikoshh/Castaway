@@ -5,6 +5,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 /*
   2. Remove default margin
@@ -20,7 +21,7 @@
 body {
   line-height: 1;
   -webkit-font-smoothing: antialiased;
-  background-color: #121212;
+  background-color: #191919;
 }
 /*
   5. Improve media defaults
@@ -60,5 +61,9 @@ h6 {
 #root,
 #__next {
   isolation: isolate;
-  
+  --background-primary: #191919;
+  --background-secondary: #000000;
+  --text-primary: white;
+  --text-secondary: rgba(255, 255, 255, 0.7);
+  --text-tertiary: #118da8;
 }
