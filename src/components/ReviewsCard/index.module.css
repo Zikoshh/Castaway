@@ -1,0 +1,35 @@
+.card {
+  border-radius: 32px;
+  background-color: var(--background-secondary);
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  height: 100%;
+}
+
+.rating_stars {
+  display: flex;
+  column-gap: 5px;
+}
+
+.rating_star {
+  background-image: url('../../assets/reviews_star.svg');
+  width: 18px;
+  height: 17px;
+}
+
+.review_text {
+  color: var(--text-primary);
+  text-wrap: balance;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 43.2px;
+}
+
+.reviewer_name {
+  color: var(--text-secondary);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.8px;
+}
