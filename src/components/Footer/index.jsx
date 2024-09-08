@@ -12,7 +12,7 @@ import FacebookIcon from '../../assets/facebook.svg?react';
 const Footer = () => {
   return (
     <div className={s.footer}>
-      <div className={s.container}>
+      <div className={s.container_main}>
         <div>
           <img className={s.logo} src={logo} alt='logo' />
           <div className={s.container_socials}>
@@ -43,12 +43,24 @@ const Footer = () => {
             </a>
           </nav>
           <div className={s.container_other}>
-            <p className={s.text}>Style Guide</p>
-            <p className={s.text}>Instructions</p>
-            <p className={s.text}>Changelog</p>
-            <p className={s.text}>Credit</p>
-            <p className={s.text}>Powered by Webflow</p>
-            <p className={s.text}>Licenses</p>
+            <a className={s.link} href='#'>
+              Style Guide
+            </a>
+            <a className={s.link} href='#'>
+              Instructions
+            </a>
+            <a className={s.link} href='#'>
+              Changelog
+            </a>
+            <a className={s.link} href='#'>
+              Credit
+            </a>
+            <a className={s.link} href='#'>
+              Powered by Webflow
+            </a>
+            <a className={s.link} href='#'>
+              Licenses
+            </a>
           </div>
           <div className={s.icon_links}>
             <a className={s.icon_link}>

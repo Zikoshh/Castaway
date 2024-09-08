@@ -31,9 +31,9 @@ const episodes = [
 const Episodes = () => {
   return (
     <div className={s.episodes} id='episodes'>
-      <div className={s.container}>
+      <div className={s.container_main}>
         <h2 className={s.title}>Latest episodes</h2>
-        <button className={s.button_view}>View all episodes</button>
+        <button className={s.button_show}>View all episodes</button>
       </div>
       <div className={s.cards}>
         {episodes.map((episode) => {

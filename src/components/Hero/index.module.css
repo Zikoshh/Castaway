@@ -20,7 +20,7 @@
   height: 74px;
 }
 
-.info {
+.container_info {
   display: flex;
   flex-direction: column;
   row-gap: 90px;
@@ -54,7 +54,7 @@
   color: var(--text-primary);
 }
 
-.listen {
+.container_listen {
   display: flex;
   flex-direction: column;
   padding: 0 22px;
@@ -62,22 +62,22 @@
   justify-content: flex-start;
 }
 
-.subtitle {
+.links_title {
   font-size: 15px;
   font-weight: 400;
   line-height: 24px;
   color: var(--text-primary);
 }
 
-.icons {
+.icon_links {
   display: flex;
   column-gap: 17px;
 }
 
-.link {
+.icon_link {
   cursor: pointer;
 }
 
-.link:hover {
+.icon_link:hover {
   opacity: 0.7;
 }

@@ -3,7 +3,7 @@
   padding: 100px 50px 160px;
 }
 
-.container {
+.container_main {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -17,7 +17,7 @@
   color: var(--text-primary);
 }
 
-.button_view {
+.button_show {
   font-size: 17px;
   font-weight: 400;
   line-height: 27px;
@@ -29,7 +29,7 @@
   cursor: pointer;
 }
 
-.button_view:hover {
+.button_show:hover {
   opacity: 0.7;
 }
 

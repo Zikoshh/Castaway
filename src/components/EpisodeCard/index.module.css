@@ -10,7 +10,7 @@
   aspect-ratio: 1;
 }
 
-.container {
+.container_main {
   padding: 8px 0 0 0;
 }
 
@@ -51,7 +51,7 @@
   margin-top: 28px;
 }
 
-.button_view {
+.button_show {
   font-size: 18px;
   font-weight: 400;
   line-height: 27px;
@@ -64,6 +64,6 @@
   cursor: pointer;
 }
 
-.button_view:hover {
+.button_show:hover {
   opacity: 0.7;
 }

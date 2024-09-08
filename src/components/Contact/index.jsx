@@ -7,7 +7,7 @@ const Contact = () => {
 
   return (
     <div className={s.contact} id='contact'>
-      <div className={s.container}>
+      <div className={s.container_main}>
         <div>
           <p className={s.hint}>Email Newsletter</p>
           <h2 className={s.title}>Subscribe for updates</h2>
